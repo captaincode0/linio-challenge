@@ -1,0 +1,30 @@
+{
+  "name": "linio-challenge",
+  "version": "0.0.1",
+  "description": "Project made to solve linio challenge",
+  "main": "main.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/captaincode0/linio-challenge.git"
+  },
+  "keywords": [
+    "linio",
+    "challenge",
+    "fizzbuzz"
+  ],
+  "author": "captaincode0",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/captaincode0/linio-challenge/issues"
+  },
+  "homepage": "https://github.com/captaincode0/linio-challenge#readme",
+  "devDependencies": {
+    "typescript": "^3.1.1"
+  }
+}
