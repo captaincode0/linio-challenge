@@ -27,7 +27,7 @@ Solution was written in following languages:
 2. JS/TypeScript (Node project).
 3. Kotlin.
 4. Php 7 standalone with PhpUnitTest.
-5. SQL :) [Just for Fun] without Unit Testing, using procedural SQL in MySQL server, can check generated [output](https://github.com).
+5. SQL :) [Just for Fun] without Unit Testing, using procedural SQL in MySQL server, can check generated [output](https://github.com/captaincode0/linio-challenge/blob/master/output.txt).
 
 ## Solution
 
@@ -55,3 +55,5 @@ Cases that i considered:
 
 - is divisible by both: when number can be divided between three or five.
 - is divisible by three: when number just can be divided by three.
+
+
