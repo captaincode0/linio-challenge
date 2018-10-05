@@ -28,6 +28,7 @@ Solution was written in following languages:
 3. Kotlin.
 4. Php 7 standalone with PhpUnitTest.
 5. SQL :) [Just for Fun] without Unit Testing, using procedural SQL in MySQL server, can check generated [output](https://github.com/captaincode0/linio-challenge/blob/master/output.txt).
+6. Python.
 
 ## Solution
 
