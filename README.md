@@ -92,7 +92,7 @@ I wrote following function to get message by one number, used to generate output
 const messages = ["IT", "Linio", "Linianos"];
 
 function getMessageByNumber(n){
-    return (n%3==0 || n%5==0)?messages[((n%3==0&n%5==0)*2)+(n%3==0 & n%5>0)]:n;
+    return (n%3==0 || n%5==0)?messages[((n%3==0&n%5==0)*2)+(n%3==0&n%5>0)]:n;
 }
 ```
 
