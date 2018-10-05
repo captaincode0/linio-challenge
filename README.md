@@ -16,7 +16,7 @@ big fans of PHP, Kotlin and TypeScript
 
 ## Learning
 
-- TypeScript: No idea, but i know Flow from facebook and i now use with babeljs.
+- TypeScript: No idea, but i know Flow from facebook and i now use with babeljs, i learned by using this [documentation](http://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html).
 
 ## Results
 
