@@ -101,7 +101,7 @@ n|x|y|result (Mi=2x+y)|Message
 
 ## Testing
 
-I wrote following function to get message by one number, used to generate output in unit testing, and made assertion tests.
+I wrote following function to get message by one number, used to generate output in unit testing, and make assertion tests.
 
 ```js
 const messages = ["IT", "Linio", "Linianos"];
