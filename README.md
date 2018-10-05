@@ -16,7 +16,6 @@ big fans of PHP, Kotlin and TypeScript
 
 ## Learning
 
-- Kotlin: I don't know nothing about this language, but i know Java well.
 - TypeScript: No idea, but i know Flow from facebook and i now use with babeljs.
 
 ## Results
@@ -25,10 +24,9 @@ Solution was written in following languages:
 
 1. Go
 2. JS/TypeScript (Node project).
-3. Kotlin.
-4. Php 7 standalone with PhpUnitTest.
-5. SQL :) [Just for Fun] without Unit Testing, using procedural SQL in MySQL server, can check generated [output](https://github.com/captaincode0/linio-challenge/blob/master/output.txt).
-6. Python.
+3. Php 7 standalone with PhpUnitTest.
+4. SQL :) [Just for Fun] without Unit Testing, using procedural SQL in MySQL server, can check generated [output](https://github.com/captaincode0/linio-challenge/blob/master/output.txt).
+5. Python.
 
 ## Solution
 
