@@ -91,8 +91,8 @@ I wrote following function to get message by one number, used to generate output
 ```js
 const messages = ["IT", "Linio", "Linianos"];
 
-function getMessageByNumber(number){
-    return (number%3==0 || number%5==0)?messages[((n%3==0&n%5==0)*2)+(n%3==0 & n%5>0)]:number;
+function getMessageByNumber(n){
+    return (n%3==0 || n%5==0)?messages[((n%3==0&n%5==0)*2)+(n%3==0 & n%5>0)]:n;
 }
 ```
 
