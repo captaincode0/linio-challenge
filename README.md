@@ -34,7 +34,7 @@ Solution was written in following languages:
 I wrote the algorithm at the beginning using common javascript, without tests and this is the eloquent solution with program constraints.
 
 ```js
-let messages            = ["IT", "Linio", "Linianos"];
+const messages          = ["IT", "Linio", "Linianos"];
 let isDivisibleByBoth   = 0;
 let isDivisibleByThree  = 0;
 
@@ -55,5 +55,45 @@ Cases that i considered:
 
 - is divisible by both: when number can be divided between three or five.
 - is divisible by three: when number just can be divided by three.
+
+I implements one message structure, to get messages with the following equation `x(n)*2 + y(n) = Mi`, where `n` is a number between 0 and 100, thus `x` and `y` are Real functions.
+
+- `1:    true`,
+- `0:    false`
+- `Mi:   Message Index`
+- `x(n): n%3==0 & n%5 == 0`
+- `y(n): n%3==0 & n%5>0`
+
+Message Index|Message
+--|--
+0|IT
+1|Linio
+2|Linianos
+
+I will test with following numbers:
+
+- 15: Divisible by both case.
+- 6: Divisible by three case.
+- 5: Divisible by five case.
+
+n|x|y|result (Mi=2x+y)|Message
+--|--|--|--|--
+**15**|15%3==0 & 15%5==0 => 1 & 1 => **1** | 15%3==0 & 15%5>0 => 1 & 0 => **0** | (1*2)+0 => **2** | Linianos
+**6**|6%3==0 & 6%5==0 => 1 & 0 => **0** | 6%3==0 & 6%5>0 => 1 & 1 => **1** | (0*2)+1 => **1** | Linio
+**5**|5%3==0 & 5%5==0 => 0 & 1 => **0** | 5%3==0 & 5%5>0 => 0 & 0 => **0** | (0*2)+0 => **0** | IT
+
+> I use `2` on equation cause x represent both cases.
+
+## Testing
+
+I wrote following function to get message by one number, used to generate output in unit testing, and made assertion tests.
+
+```
+const messages = ["IT", "Linio", "Linianos"];
+
+function getMessageByNumber(number){
+    return (number%3==0 || number%5==0)?messages[((n%3==0&n%5==0)*2)+(n%3==0 & n%5>0)]:number;
+}
+```
 
 
