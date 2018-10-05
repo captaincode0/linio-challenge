@@ -45,9 +45,9 @@ begin
 	truncate table _results;
 
 	FIZZ_BUZZ_LOOP: while counter<FIZZ_BUZZ_LOOP_LIMIT do
-		set counter 						= counter+1;
-		set IS_DIVISIBLE_BY_THREE 			= counter%3 = 0 and counter%5 > 0;
-		set IS_DIVISIBLE_BY_BOTH			= counter%3 = 0 and counter%5 = 0;
+		set counter					= counter+1;
+		set IS_DIVISIBLE_BY_THREE	= counter%3 = 0 and counter%5 > 0;
+		set IS_DIVISIBLE_BY_BOTH	= counter%3 = 0 and counter%5 = 0;
 
 		if counter%3=0 or counter%5=0 then
 			set MESSAGE_TO_SELECT 	= (IS_DIVISIBLE_BY_THREE+(IS_DIVISIBLE_BY_BOTH*2));
