@@ -51,6 +51,21 @@ for(let i=1; i<=100; i++){
 }
 ```
 
+**This is not one documentable solution, its like not-readable for humans code:**
+
+```js
+const messages = ["IT", "Linio", "Linianos"];
+
+for(let i=1; i<=100; i++){
+    if(i%3==0 || i%5==0){
+        console.log(messages[((i%3==0 & i%5==0)*2)+(i%3==0 & i%5>0)]);
+        continue;
+    }
+
+    console.log(i);
+}
+```
+
 Cases that i considered:
 
 - is divisible by both: when number can be divided between three or five.
